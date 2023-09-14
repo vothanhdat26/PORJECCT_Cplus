@@ -20,7 +20,7 @@ int main()
 		cout << "\n4.Mat hang co gia tien nhieu nhat";
 		cout << "\n5.Mat hang co thoi gian bao hanh hon 12 thang";
 		cout << "\n6.Sap xep mat hang theo thu tu tang dan so luong ton";
-		// cout << "\n7. Xuat mat hang ";
+		cout << "\n7. Xuat mat hang ";
 		cout << "\n0. Thoat ";
 		cout << "\nNhap tuy chon: ";
 		cin >> chon;
@@ -56,11 +56,11 @@ int main()
 			sapxep(mh, n);
 			Press();
 			break;
-			// case 7:
-			// // xuat mat hang
-			// xuatMH(mh, n);
-			// Press();
-			// break;
+		case 7:
+			// xuat mat hang
+			xuatMH(mh, n);
+			Press();
+			break;
 		default:
 			cout << "Ban da nhap sai lua chon!" << endl;
 			Press();
