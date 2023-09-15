@@ -47,7 +47,7 @@ public:
     void display(){
         Car::display();
         cout <<"Trim level: "<<trimlevel << endl;
-        
+
     }
 
 };
