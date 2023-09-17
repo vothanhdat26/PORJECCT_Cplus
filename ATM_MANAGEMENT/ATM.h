@@ -8,7 +8,7 @@ class ATM
 private:
     string ac_name;
     int ac_Numer;
-    double balance;
+    double balance; // tiền còn lại
 public:
     ATM(double balance){
         this->ac_name= ac_name;
